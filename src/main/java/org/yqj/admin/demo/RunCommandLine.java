@@ -1,11 +1,9 @@
-package org.yqj.boot.demo;
+package org.yqj.admin.demo;
 
 import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import java.net.InetAddress;
 
 /**
  * Created by yaoqijun.
