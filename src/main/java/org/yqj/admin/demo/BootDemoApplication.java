@@ -1,8 +1,9 @@
 package org.yqj.admin.demo;
 
 import de.codecentric.boot.admin.config.EnableAdminServer;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by yaoqijun.
@@ -10,7 +11,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  * Email:yaoqj@terminus.io
  * Descirbe:
  */
-@SpringBootApplication
+@Configuration
+@EnableAutoConfiguration
 @EnableAdminServer
 public class BootDemoApplication {
     public static void main(String[] args) {
